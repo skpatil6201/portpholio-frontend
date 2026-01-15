@@ -129,7 +129,7 @@ function Projects() {
       id: 1,
       title: "Professional Resume Builder",
       period: "May 2025 - July 2025",
-      url: "https://resume-builder-demo.com",
+      url: "https://resumebuilderr-one.vercel.app/",
       githubUrl: "https://github.com/tejasharne/resume-builder",
       status: "PDF Generation",
       statusColor: "bg-emerald-500/20 text-emerald-400",
@@ -153,7 +153,7 @@ function Projects() {
       id: 2,
       title: "Amazon E-commerce Clone",
       period: "March 2025 - May 2025",
-      url: "amzon-clone-eta.vercel.app",
+      url: "https://amzon-clone-eta.vercel.app",
       githubUrl: "https://github.com/skpatil6201/Amzon-Clone",
       status: "Full E-commerce",
       statusColor: "bg-orange-500/20 text-orange-400",
@@ -178,7 +178,7 @@ function Projects() {
       id: 3,
       title: "Spotify Music Streaming Clone",
       period: "February 2025 - April 2025",
-      url: "spotify-done.vercel.app",
+      url: "https://spotify-done.vercel.app",
       githubUrl: "https://github.com/skpatil6201/Spotify_Done",
       status: "Real-time API",
       statusColor: "bg-green-500/20 text-green-400",
@@ -224,53 +224,7 @@ function Projects() {
         "Integrated Cloudinary for efficient image and document storage with automatic optimization and CDN delivery"
       ]
     },
-    {
-      id: 5,
-      title: "Make Easy Documents",
-      period: "April 2025 - June 2025",
-      url: "https://makeeasydocuments.com",
-      githubUrl: "https://github.com/tejasharne/make-easy-documents",
-      status: "45% Performance Boost",
-      statusColor: "bg-green-500/20 text-green-400",
-      techStack: "Node.js, Express.js, MongoDB, Mongoose, Redis, PayU, Passport.js, Google OAuth, Axios",
-      bulletColor: "bg-green-400",
-      category: "fullstack",
-      highlights: [
-        { icon: <Zap className="w-5 h-5 text-yellow-400" />, value: "45%", label: "Performance Boost" },
-        { icon: <Users className="w-5 h-5 text-blue-400" />, value: "1000+", label: "Active Users" },
-        { icon: <CheckCircle className="w-5 h-5 text-green-400" />, value: "99.9%", label: "Uptime" }
-      ],
-      achievements: [
-        "Designed and integrated a complete user flow including form submission, PayU payment gateway integration, real-time transaction status handling, and automated notifications via email",
-        "Built an intuitive admin dashboard for document review and status updates with automatic user notifications on each status change",
-        "Enhanced user experience with re-submission support, transaction history tracking, and real-time status visibility within the user dashboard",
-        "Improved system performance by <span class='text-green-400 font-semibold'>45%</span> using Redis for caching, implemented secure file storage with MinIO"
-      ]
-    },
-    {
-      id: 6,
-      title: "Mahagarjana News Portal",
-      period: "Jan 2025 - Mar 2025",
-      url: "https://mahagarjana.news",
-      githubUrl: "https://github.com/tejasharne/mahagarjana-news",
-      status: "99.8% API Reliability",
-      statusColor: "bg-blue-500/20 text-blue-400",
-      techStack: "Node.js, Express.js, MongoDB, Mongoose, Passport.js, Multer, Nodemailer, JWT, Axios, Facebook Graph API, Instagram Graph API, LinkedIn API, MinIO",
-      bulletColor: "bg-blue-400",
-      category: "fullstack",
-      highlights: [
-        { icon: <CheckCircle className="w-5 h-5 text-green-400" />, value: "99.8%", label: "API Reliability" },
-        { icon: <Zap className="w-5 h-5 text-yellow-400" />, value: "90%", label: "Automation" },
-        { icon: <Users className="w-5 h-5 text-blue-400" />, value: "3", label: "Social Platforms" }
-      ],
-      achievements: [
-        "Architected a robust backend infrastructure for a news publishing platform enabling dynamic content management, user authentication, and cross-platform social media publishing",
-        "Integrated OAuth-based social login capabilities (Google and Facebook) using custom Passport.js strategies",
-        "Implemented cross-platform social media publishing functionality using Facebook Graph API, Instagram Graph API, and LinkedIn API",
-        "Cut down manual social media posting by <span class='text-green-400 font-semibold'>90%</span> by automating content distribution via API integrations",
-        "Maintained a <span class='text-green-400 font-semibold'>99.8%</span> API reliability rate through resilient error handling for social platform interactions"
-      ]
-    }
+    
   ];
 
   const categories = [

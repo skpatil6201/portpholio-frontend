@@ -95,7 +95,7 @@ const [formData, setFormData] = useState({
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Email</p>
-                    <p className="text-white font-medium">tejaspatil77777@gmail.com</p>
+                    <p className="text-white font-medium">tejaspatil77777@zohomail.in</p>
                   </div>
                 </div>
 

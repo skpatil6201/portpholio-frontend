@@ -103,7 +103,7 @@ const Footer = () => {
                                 {[
                                     { Icon: Github, href: 'https://github.com/skpatil6201', label: 'GitHub' },
                                     { Icon: Linkedin, href: 'https://www.linkedin.com/in/mr-tejas-harne/', label: 'LinkedIn' },
-                                    { Icon: Mail, href: 'mailto:tejaspatil77777@gmail.com', label: 'Email' }
+                                    { Icon: Mail, href: 'mailto:tejaspatil77777@zohomail.in', label: 'Email' }
                                 ].map(({ Icon, href, label }) => (
                                     <a
                                         key={label}
@@ -170,7 +170,7 @@ const Footer = () => {
                                 <div className="flex items-start space-x-3">
                                     <Mail className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
                                     <span className="text-sm leading-relaxed">
-                                        tejaspatil77777@gmail.com
+                                        tejaspatil77777@zohomail.in
                                     </span>
                                 </div>
                                 <div className="flex items-start space-x-3">
@@ -189,7 +189,7 @@ const Footer = () => {
                     <div className="border-t border-blue-500/20 pt-8 relative">
                         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-24 h-px bg-gradient-to-r from-transparent via-blue-400 to-transparent"></div>
                         <p className="text-center text-slate-500 text-sm">
-                            © 2025 Tejas Harne. All rights reserved.
+                            © 2023 Tejas Harne. All rights reserved.
                         </p>
                     </div>
                 </div>

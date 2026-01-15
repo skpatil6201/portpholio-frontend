@@ -66,7 +66,7 @@ export default function About() {
                                 </div>
                                 <div className="flex items-center space-x-2">
                                     <Mail className="w-4 h-4" />
-                                    <span>tejaspatil77777@gmail.com</span>
+                                    <span>tejaspatil77777@zohomail.in</span>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ export default function About() {
                             Hello! I'm <span className="text-blue-400 font-semibold">Tejas Harne</span>, a dedicated MERN Stack Developer with 1.5+ years of hands-on experience in building scalable backend systems and user-friendly frontend interfaces. My expertise lies in Node.js, Express.js, and creating robust RESTful APIs.
                         </p>
                         <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                            Currently working at <span className="text-purple-400 font-semibold">Maharashtra Informatics OPC Pvt Ltd</span>, I specialize in designing high-performance applications with microservices architecture. I have successfully integrated payment gateways, implemented secure authentication systems, and improved system performance by <span className="text-green-400 font-semibold">45%</span> using Redis caching strategies.
+                            Currently working at <span className="text-emerald-400 font-semibold">Interglade Solutions Pvt Ltd</span>, I specialize in building scalable backend systems and intuitive frontend applications using Node.js, Express.js, React.js, React Native, and TypeScript. I have strong expertise in designing secure RESTful APIs, optimizing database performance, and developing cross-platform mobile apps.
                         </p>
                         <p className="text-gray-300 text-lg leading-relaxed">
                             My journey started at AlmaBetter where I ranked in the <span className="text-yellow-400 font-semibold">top 5%</span> of over 200 students, and I continue to deliver fast, secure, and user-focused applications while collaborating effectively with cross-functional teams.

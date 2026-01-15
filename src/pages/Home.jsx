@@ -136,12 +136,12 @@ const Home = () => {
               isActive={activeTab === 'education'} 
               onClick={setActiveTab} 
             />
-            <TabButton 
+            {/* <TabButton 
               tabKey="projects" 
               label="Projects" 
               isActive={activeTab === 'projects'} 
               onClick={setActiveTab} 
-            />
+            /> */}
           </div>
         </div>
 
@@ -154,11 +154,23 @@ const Home = () => {
           {activeTab === 'experience' && (
             <div className="space-y-8 animate-in fade-in duration-500">
               <ExperienceCard
-                title="MERN Stack Developer"
-                company={{ name: "Maharashtra Informatics OPC Pvt Ltd, Pune", color: "text-blue-400" }}
-                period="Jan 2025 - June 2025"
+                title="Software Developer"
+                company={{ name: "Interglade Solutions Pvt Ltd", color: "text-emerald-400" }}
+                period="Sept 2025 - Present"
                 status="Current Role"
                 statusColor="bg-green-500/20 text-green-400"
+                bulletColor="bg-emerald-400"
+                achievements={[
+                  "Full-Stack Developer (MERN) with hands-on experience building scalable backend systems and intuitive frontend applications using Node.js, Express.js, React.js, React Native, and TypeScript",
+                  "Strong expertise in designing secure RESTful APIs, optimizing database performance, and developing cross-platform mobile apps",
+                  "Designed and documented RESTful APIs for seamless integration with third-party services, including Razorpay for secure payment processing"
+                ]}
+              />
+
+              <ExperienceCard
+                title="MERN Stack Developer"
+                company={{ name: "Maharashtra Informatics OPC Pvt Ltd, Pune", color: "text-blue-400" }}
+                period="Jan 2025 - Sept 2025"
                 bulletColor="bg-blue-400"
                 achievements={[
                   "Designed, developed, and maintained high-performance Node.js applications with strong focus on scalability, reliability, and clean architecture using Express.js and microservices design principles",
