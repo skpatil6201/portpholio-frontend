@@ -171,7 +171,7 @@ function Projects() {
         "Built advanced search and filtering functionality with category-based navigation and price range filters",
         "Integrated Stripe payment gateway for secure transaction processing with order history tracking",
         "Designed responsive UI components using Material-UI with <span class='text-orange-400 font-semibold'>mobile-first</span> approach for optimal user experience",
-        "Utilized Redux Toolkit for efficient state management across cart, user session, and product data"
+        "Utilized Redux Toolkit for efficient state management across rt, user session, and product data"
       ]
     },
     {
@@ -203,7 +203,7 @@ function Projects() {
       id: 4,
       title: "Hvpm Sport Club Platform",
       period: "January 2025 - March 2025",
-      url: "https://hyvpm-sport-club.com",
+      url: "https://hvmp-sport-club-frountend-gaxa.vercel.app/",
       githubUrl: "https://github.com/tejasharne/hyvpm-sport-club",
       status: "MERN Stack",
       statusColor: "bg-purple-500/20 text-purple-400",
